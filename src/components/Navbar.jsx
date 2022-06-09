@@ -113,25 +113,25 @@ const Navbar = () => {
             <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] rounded-r-full hover:ml-[-10px] duration-300 bg-[#362ead]'>
               <a className='flex justify-between items-center w-full text-gray-300'
                href={resumeSV} download="ChristianKarlssonKorbaczCVSvenska.pdf">
-                Resume SV <BsFileCheck size={30} />
+                Swedish Resume <BsFileCheck size={30} />
               </a>
             </li>
             <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] rounded-r-full hover:ml-[-10px] duration-300 bg-[#362ead]'>
               <a className='flex justify-between items-center w-full text-gray-300'
                href={coverletterSV} download="ChristianKarlssonKorbaczCLSvenska.pdf">
-                Coverletter SV <BsFileCheckFill size={30} />
+                Swedish Coverletter <BsFileCheckFill size={30} />
               </a>
             </li>
             <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] rounded-r-full hover:ml-[-10px] duration-300 bg-[#c53838]'>
               <a className='flex justify-between items-center w-full text-gray-300'
                href={resumeEN} download="ChristianKarlssonKorbaczCVEnglish.pdf">
-                Resume EN <BsFileCheck size={30} />
+                English Resume <BsFileCheck size={30} />
               </a>
             </li>
             <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] rounded-r-full hover:ml-[-10px] duration-300 bg-[#c53838]'>
               <a className='flex justify-between items-center w-full text-gray-300'
                href={coverletterEN} download="ChristianKarlssonKorbaczCLEnglish.pdf">
-                Coverletter EN <BsFileCheckFill size={30} />
+                English Coverletter <BsFileCheckFill size={30} />
               </a>
             </li>
           </ul>
