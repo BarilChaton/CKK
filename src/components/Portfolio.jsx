@@ -15,7 +15,7 @@ const Work = () => {
             </div>
 
             {/* Container */}
-            <div className='grid sm:grid-cols-2 md:grid-col-3 gap-4'>
+            <div className='mb-20 grid sm:grid-cols-2 md:grid-col-3 gap-4'>
 
                 {/* Grid item */}
                 <div style={{backgroundImage: `url(${Munamii})`}}

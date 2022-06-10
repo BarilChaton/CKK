@@ -19,7 +19,7 @@ const Skills = () => {
                 <p className='py-4'>// Theese are the technologies I've worked with.</p>
             </div>
 
-            <div className='w-full grid grid-cols-2 sm:grid-cols-4 gap-4 text-center py-8'>
+            <div className='w-full grid grid-cols-2 mb-20 sm:grid-cols-4 gap-4 text-center py-8'>
                 <div className='shadow-md shadow-[#414244] m-4 hover:scale-110 duration-500'>
                     <img className='w-20 mt-4 mx-auto' src={CSharp} alt="C# Icon" />
                     <p className='my-4'>C#</p>
