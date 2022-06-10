@@ -5,7 +5,7 @@ const About = () => {
   return (
     <div name='about' className='w-full h-full bg-[#141414] text-[#b4b4b4]'>
       <div className='flex justify-center mb-16'>
-        <img className='rounded-full border-8 border-[#292929] ' src={ProfilePic} alt="My Image" style={{width: '500px'}}/>
+        <img className='mb-12 rounded-full border-8 border-[#292929] ' src={ProfilePic} alt="My Image" style={{width: '500px'}}/>
       </div>
         <div className='flex flex-col justify-center items-center w-full h-full'>
             <div className='max-w-[1000px] w-full grid grid-cols-2 gap-8'>
@@ -20,7 +20,7 @@ const About = () => {
                   <p>Hi! I'm Christian, nice to meet you.</p>
                 </div>
                 <div className='mb-10'>
-                <p className='mb-20'>
+                <p className='mb-40'>
                     I'm a freshly baked Software/Frontend developer looking for a job opportunity to get experiance and make something that matters.
                     I always strive for the best result in whatever I do. I always approach a task with the Ockhams razor principle. And thus far it has always served me well.
                     I'm a graduate from a programming course at Lexicon. Which is a part of a program sponsored by the European Union to educate new programmers for the job market.
