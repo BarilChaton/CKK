@@ -1,5 +1,5 @@
 import React, {useState} from 'react'
-import {FaBars, FaTimes, FaGithub, FaLinkedin} from 'react-icons/fa'
+import {FaBars, FaTimes, FaGithub, FaLinkedin, FaTwitter} from 'react-icons/fa'
 import {HiOutlineMail, HiOutlineDocumentText} from 'react-icons/hi'
 import {BsFileCheck, BsFileCheckFill} from 'react-icons/bs'
 import Logo from '../assets/CK.png'
@@ -92,13 +92,19 @@ const Navbar = () => {
         {/* Social Icons */}
         <div className='hidden lg:flex fixed flex-col top-[35%] left-0'>
           <ul>
-            <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] rounded-r-full hover:ml-[-10px] duration-300 bg-blue-600'>
+            <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] rounded-r-full hover:ml-[-10px] duration-300 bg-[#0077b5]'>
               <a className='flex justify-between items-center w-full text-gray-300'
                href="https://www.linkedin.com/in/christian-karlsson-korbacz-CKK">
                 LinkedIn <FaLinkedin size={30} />
               </a>
             </li>
-            <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] rounded-r-full hover:ml-[-10px] duration-300  bg-[#333333]'>
+            <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] rounded-r-full hover:ml-[-10px] duration-300 bg-[#1DA1F2]'>
+              <a className='flex justify-between items-center w-full text-gray-300'
+               href="https://twitter.com/KKorbacz">
+                Twitter <FaTwitter size={30} />
+              </a>
+            </li>
+            <li className='w-[160px] h-[60px] flex justify-between items-center ml-[-100px] rounded-r-full hover:ml-[-10px] duration-300  bg-[#171515]'>
               <a className='flex justify-between items-center w-full text-gray-300'
                href="https://github.com/BarilChaton">
                 GitHub <FaGithub size={30} />

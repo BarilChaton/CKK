@@ -8,10 +8,10 @@ import EndlessSplash from '../assets/EndlessSplash.png'
 
 const Work = () => {
   return (
-    <div name='portfolio' className='w-full md:h-screen bg-[#141414] text-[#b4b4b4]'>
+    <div name='portfolio' className='w-full md:h-screen bg-[#333333] text-[#b4b4b4]'>
         <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
             <div className='pb-8'>
-                <p className='text-4xl font-bold inline border-b-4 border-[#292929]'>Portfolio</p>
+                <p className='text-4xl font-bold inline border-b-4 border-[#141414]'>Portfolio</p>
                 <p className='py-6'>// Feel free to take a look at my work. More projects will be added with time.</p>
             </div>
 

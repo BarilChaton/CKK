@@ -3,7 +3,7 @@ import ProfilePic from '../assets/Background.jpg'
 
 const About = () => {
   return (
-    <div name='about' className='w-full h-full bg-[#141414] text-[#b4b4b4]'>
+    <div name='about' className='w-full h-full bg-[#333333] text-[#b4b4b4]'>
       <div className='flex justify-center mb-16'>
         <img className='mb-12 rounded-full border-8 border-[#292929] ' src={ProfilePic} alt="My Image" style={{width: '500px'}}/>
       </div>
@@ -11,7 +11,7 @@ const About = () => {
             <div className='max-w-[1000px] w-full grid grid-cols-2 gap-8'>
               
               <div className='sm:text-right pb-8 pl-4'>
-                <p className='text-4xl font-bold inline border-b-4 border-[#292929]'>About</p>
+                <p className='text-4xl font-bold inline border-b-4 border-[#141414]'>About</p>
               </div>
                 <div></div>
               </div>
