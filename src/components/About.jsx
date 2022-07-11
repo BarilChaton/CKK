@@ -21,10 +21,10 @@ const About = () => {
                 </div>
                 <div className='mb-10'>
                 <p className='mb-40'>
-                    I'm a freshly baked Software/Frontend developer looking for a job opportunity to get experiance and make something that matters.
+                    I'm a freshly baked Game Designer/Frontend developer looking for a job opportunity to get experiance and make something that matters.
                     I always strive for the best result in whatever I do. I always approach a task with the Ockhams razor principle. And thus far it has always served me well.
                     I'm a graduate from a programming course at Lexicon. Which is a part of a program sponsored by the European Union to educate new programmers for the job market.
-                    My speciality of choosing is Software/Game development and Frontend. Given that I have something of an artistic eye, I find it to be suitable for me.
+                    My speciality of choosing is Game design development and Frontend. Given that I have something of an artistic eye, I find it to be suitable for me.
                   </p>
                 </div>
               </div>
