@@ -18,7 +18,7 @@ const Work = () => {
             </div>
 
             {/* Container */}
-            <div className='mb-20 grid sm:grid-cols-2 md:grid-col-3 gap-4 overflow-auto'>
+            <div className='mb-20 grid sm:grid-cols-2 md:grid-col-3 gap-4 overflow-y-scroll border-4 border-[#292929] rounded-lg shadow-md shadow-[#141414] p-1'>
 
                 {/* Grid item */}
                 <div style={{backgroundImage: `url(${EndlessSplash})`}}
