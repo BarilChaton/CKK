@@ -5,6 +5,8 @@ import MW3D from '../assets/MW3D.jpg'
 import AssetTracker from '../assets/AssetTracker.jpg'
 import MatrixRain from '../assets/matrixRain.jpg'
 import EndlessSplash from '../assets/EndlessSplash.png'
+import MazeWalkerDL from '../files/ConsoleMazeWalker3D.zip'
+import AssetTrackerDL from '../files/KWABConsoleAssetTracker.zip'
 
 const Work = () => {
   return (
@@ -16,22 +18,22 @@ const Work = () => {
             </div>
 
             {/* Container */}
-            <div className='mb-20 grid sm:grid-cols-2 md:grid-col-3 gap-4'>
+            <div className='mb-20 grid sm:grid-cols-2 md:grid-col-3 gap-4 overflow-auto'>
 
                 {/* Grid item */}
-                <div style={{backgroundImage: `url(${Munamii})`}}
+                <div style={{backgroundImage: `url(${EndlessSplash})`}}
                 className='shadow-lg shadow-[#414244] group container rounded-md flex justify-center items-center mx-auto content-div'>
                     
                     {/* Hover effects */}
                     <div className='opacity-0 group-hover:opacity-100'>
                         <span className='text-2xl font-bold text-white tracking-wider'>
-                            Simple HTML, CSS Website.
+                            A 2 week end-project at Lexicon course.
                         </span>
                         <div className='pt-8 text-center'>
-                            <a href="https://barilchaton.github.io/MunamiiCakes/">
+                            <a href="https://christiankarlssonkorbacz.itch.io/project-endless">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-[#292929] font-bold text-lg'>Demo</button>
                             </a>
-                            <a href="https://github.com/BarilChaton/MunamiiCakes">
+                            <a href="https://github.com/BarilChaton/Endless">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-[#292929] font-bold text-lg'>Code</button>
                             </a>
                         </div>
@@ -55,6 +57,24 @@ const Work = () => {
                         </div>
                     </div>
                 </div>
+                <div style={{backgroundImage: `url(${Munamii})`}}
+                className='shadow-lg shadow-[#414244] group container rounded-md flex justify-center items-center mx-auto content-div'>
+                    
+                    {/* Hover effects */}
+                    <div className='opacity-0 group-hover:opacity-100'>
+                        <span className='text-2xl font-bold text-white tracking-wider'>
+                            Simple HTML, CSS Website.
+                        </span>
+                        <div className='pt-8 text-center'>
+                            <a href="https://barilchaton.github.io/MunamiiCakes/">
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-[#292929] font-bold text-lg'>Demo</button>
+                            </a>
+                            <a href="https://github.com/BarilChaton/MunamiiCakes">
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-[#292929] font-bold text-lg'>Code</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
                 <div style={{backgroundImage: `url(${MW3D})`}}
                 className='shadow-lg shadow-[#414244] group container rounded-md flex justify-center items-center mx-auto content-div'>
                     
@@ -64,9 +84,9 @@ const Work = () => {
                             3D maze game on cmd using .Net C#.
                         </span>
                         <div className='pt-8 text-center'>
-                            {/* <a href="/">
+                            <a href={MazeWalkerDL} download="ConsoleMazeWalker3D.zip">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-[#292929] font-bold text-lg'>Demo</button>
-                            </a> */}
+                            </a>
                             <a href="https://github.com/BarilChaton/MazeWalker3D">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-[#292929] font-bold text-lg'>Code</button>
                             </a>
@@ -82,9 +102,9 @@ const Work = () => {
                             Asset Tracking program using .Net C#.
                         </span>
                         <div className='pt-8 text-center'>
-                            {/* <a href="/">
+                            <a href={AssetTrackerDL} download="KWABConsoleAssetTracker.zip">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-[#292929] font-bold text-lg'>Demo</button>
-                            </a> */}
+                            </a>
                             <a href="https://github.com/BarilChaton/KWAB_AssetTracker">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-[#292929] font-bold text-lg'>Code</button>
                             </a>
@@ -104,24 +124,6 @@ const Work = () => {
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-[#292929] font-bold text-lg'>Demo</button>
                             </a>
                             <a href="https://github.com/BarilChaton/MatrixRain">
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-[#292929] font-bold text-lg'>Code</button>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div style={{backgroundImage: `url(${EndlessSplash})`}}
-                className='shadow-lg shadow-[#414244] group container rounded-md flex justify-center items-center mx-auto content-div'>
-                    
-                    {/* Hover effects */}
-                    <div className='opacity-0 group-hover:opacity-100'>
-                        <span className='text-2xl font-bold text-white tracking-wider'>
-                            A 2 week end-project at Lexicon course.
-                        </span>
-                        <div className='pt-8 text-center'>
-                            <a href="https://christiankarlssonkorbacz.itch.io/project-endless">
-                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-[#292929] font-bold text-lg'>Demo</button>
-                            </a>
-                            <a href="https://github.com/BarilChaton/Endless">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-[#292929] font-bold text-lg'>Code</button>
                             </a>
                         </div>

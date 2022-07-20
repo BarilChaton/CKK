@@ -7,6 +7,9 @@ import ReactImg from '../assets/react.png';
 import TailwindImg from '../assets/tailwind.png';
 import GithubImg from '../assets/github.png';
 import Unity from '../assets/Unity.png';
+import Sanity from '../assets/sanity.png';
+import Azure from '../assets/azure.png';
+import GoogleCloud from '../assets/googlecloud.png';
 
 
 const Skills = () => {
@@ -51,6 +54,18 @@ const Skills = () => {
                 <div className='shadow-md shadow-[#141414] m-4 hover:scale-110 duration-500'>
                     <img className='w-20 mt-4 mx-auto' src={Unity} alt="Unity Icon" />
                     <p className='my-4'>Unity</p>
+                </div>
+                <div className='shadow-md shadow-[#141414] m-4 hover:scale-110 duration-500'>
+                    <img className='w-20 mt-4 mx-auto' src={Sanity} alt="Sanity Icon" />
+                    <p className='my-4'>Sanity</p>
+                </div>
+                <div className='shadow-md shadow-[#141414] m-4 hover:scale-110 duration-500'>
+                    <img className='w-20 mt-4 mx-auto' src={Azure} alt="Azure Icon" />
+                    <p className='my-4'>Azure</p>
+                </div>
+                <div className='shadow-md shadow-[#141414] m-4 hover:scale-110 duration-500'>
+                    <img className='w-20 mt-4 mx-auto' src={GoogleCloud} alt="Google cloud Icon" />
+                    <p className='my-4'>Google Cloud</p>
                 </div>
             </div>
         </div>
