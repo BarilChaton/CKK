@@ -1,15 +1,18 @@
 {
   "files": {
-    "main.css": "/CKK/static/css/main.d639a51f.css",
-    "main.js": "/CKK/static/js/main.e69d5593.js",
+    "main.css": "/CKK/static/css/main.e3afab6c.css",
+    "main.js": "/CKK/static/js/main.6bb01657.js",
     "static/media/MW3D.jpg": "/CKK/static/media/MW3D.5e13bb48365c62c96f71.jpg",
     "static/media/EndlessSplash.png": "/CKK/static/media/EndlessSplash.0bce3b2569ca41d45d1c.png",
+    "static/media/googlecloud.png": "/CKK/static/media/googlecloud.3349363abd1142e2d9d3.png",
     "static/media/Background.jpg": "/CKK/static/media/Background.219218b458e8682581e1.jpg",
     "static/media/Munamii.jpg": "/CKK/static/media/Munamii.f85704198ce8190461a3.jpg",
     "static/media/matrixRain.jpg": "/CKK/static/media/matrixRain.1d0818aba0550177a7ac.jpg",
     "static/media/AssetTracker.jpg": "/CKK/static/media/AssetTracker.b0d3f93d9c0161749019.jpg",
-    "static/media/ChristianKarlssonKorbaczCVEnglish.pdf": "/CKK/static/media/ChristianKarlssonKorbaczCVEnglish.604fc21c50152beff744.pdf",
-    "static/media/ChristianKarlssonKorbaczCVSvenska.pdf": "/CKK/static/media/ChristianKarlssonKorbaczCVSvenska.d653688826a767cc3812.pdf",
+    "static/media/ChristianKarlssonKorbaczCVEnglish.pdf": "/CKK/static/media/ChristianKarlssonKorbaczCVEnglish.7e7e53d019f7e7209568.pdf",
+    "static/media/ChristianKarlssonKorbaczCVSvenska.pdf": "/CKK/static/media/ChristianKarlssonKorbaczCVSvenska.29a9399e8ece4705c874.pdf",
+    "static/media/KWABConsoleAssetTracker.zip": "/CKK/static/media/KWABConsoleAssetTracker.d47b110872409a6926db.zip",
+    "static/media/ConsoleMazeWalker3D.zip": "/CKK/static/media/ConsoleMazeWalker3D.4464925b38d940fcf33b.zip",
     "static/media/ChristianKarlssonKorbaczCLSvenska.pdf": "/CKK/static/media/ChristianKarlssonKorbaczCLSvenska.698225de4eb504298ee4.pdf",
     "static/media/ChristianKarlssonKorbaczCLEnglish.pdf": "/CKK/static/media/ChristianKarlssonKorbaczCLEnglish.fa2acf7d4572c7b15f59.pdf",
     "static/media/KiberQuest.png": "/CKK/static/media/KiberQuest.83a5503ac4089bb45fa5.png",
@@ -18,15 +21,17 @@
     "static/media/github.png": "/CKK/static/media/github.3b9e32903aa89111875d.png",
     "static/media/Unity.png": "/CKK/static/media/Unity.def735d87d84ac7e991b.png",
     "static/media/html.png": "/CKK/static/media/html.2ba4fabc69a89a8f71e6.png",
+    "static/media/azure.png": "/CKK/static/media/azure.3cf49db48e72089f1d01.png",
     "static/media/tailwind.png": "/CKK/static/media/tailwind.e47ac876b8d4d0bba47a.png",
     "static/media/css.png": "/CKK/static/media/css.69a82c2d9e45c933a9cb.png",
+    "static/media/sanity.png": "/CKK/static/media/sanity.da9c728da491c30ee700.png",
     "static/media/javascript.png": "/CKK/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/CKK/index.html",
-    "main.d639a51f.css.map": "/CKK/static/css/main.d639a51f.css.map",
-    "main.e69d5593.js.map": "/CKK/static/js/main.e69d5593.js.map"
+    "main.e3afab6c.css.map": "/CKK/static/css/main.e3afab6c.css.map",
+    "main.6bb01657.js.map": "/CKK/static/js/main.6bb01657.js.map"
   },
   "entrypoints": [
-    "static/css/main.d639a51f.css",
-    "static/js/main.e69d5593.js"
+    "static/css/main.e3afab6c.css",
+    "static/js/main.6bb01657.js"
   ]
 }
