@@ -1,6 +1,7 @@
 import React from 'react'
 import Munamii from '../assets/Munamii.jpg'
 import KiberQuest from '../assets/KiberQuest.png'
+import ShareSmile from '../assets/sharesmile.png'
 import MW3D from '../assets/MW3D.jpg'
 import AssetTracker from '../assets/AssetTracker.jpg'
 import MatrixRain from '../assets/matrixRain.jpg'
@@ -57,6 +58,26 @@ const Work = () => {
                         </div>
                     </div>
                 </div>
+
+                <div style={{backgroundImage: `url(${ShareSmile})`}}
+                className='shadow-lg shadow-[#414244] group container rounded-md flex justify-center items-center mx-auto content-div'>
+                    
+                    {/* Hover effects */}
+                    <div className='opacity-0 group-hover:opacity-100'>
+                        <span className='text-2xl font-bold text-white tracking-wider'>
+                            My first social media app/website.
+                        </span>
+                        <div className='pt-8 text-center'>
+                            <a href="https://sharesmile.netlify.app/">
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-[#292929] font-bold text-lg'>Demo</button>
+                            </a>
+                            <a href="https://github.com/BarilChaton/ShareSmile">
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-[#292929] font-bold text-lg'>Code</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
                 <div style={{backgroundImage: `url(${Munamii})`}}
                 className='shadow-lg shadow-[#414244] group container rounded-md flex justify-center items-center mx-auto content-div'>
                     
