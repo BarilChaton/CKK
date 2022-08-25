@@ -10,6 +10,8 @@ import Unity from '../assets/Unity.png';
 import Sanity from '../assets/sanity.png';
 import Azure from '../assets/azure.png';
 import GoogleCloud from '../assets/googlecloud.png';
+import Blender from '../assets/blender.png';
+import Aseprite from '../assets/aseprite.png';
 
 
 const Skills = () => {
@@ -66,6 +68,14 @@ const Skills = () => {
                 <div className='shadow-md shadow-[#141414] m-4 hover:scale-110 duration-500'>
                     <img className='w-20 mt-4 mx-auto' src={GoogleCloud} alt="Google cloud Icon" />
                     <p className='my-4'>Google Cloud</p>
+                </div>
+                <div className='shadow-md shadow-[#141414] m-4 hover:scale-110 duration-500'>
+                    <img className='w-20 mt-4 mx-auto' src={Blender} alt="Blender Icon" />
+                    <p className='my-4'>Blender</p>
+                </div>
+                <div className='shadow-md shadow-[#141414] m-4 hover:scale-110 duration-500'>
+                    <img className='w-20 mt-4 mx-auto' src={Aseprite} alt="Aseprite Icon" />
+                    <p className='my-4'>Aseprite</p>
                 </div>
             </div>
         </div>
