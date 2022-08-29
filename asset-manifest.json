@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/CKK/static/css/main.adfbb88e.css",
-    "main.js": "/CKK/static/js/main.6da40370.js",
+    "main.css": "/CKK/static/css/main.1c03f3f0.css",
+    "main.js": "/CKK/static/js/main.c9e53531.js",
     "static/media/sharesmile.png": "/CKK/static/media/sharesmile.ca15cbc5ff7afa84a890.png",
     "static/media/MW3D.jpg": "/CKK/static/media/MW3D.5e13bb48365c62c96f71.jpg",
     "static/media/EndlessSplash.png": "/CKK/static/media/EndlessSplash.0bce3b2569ca41d45d1c.png",
@@ -16,6 +16,7 @@
     "static/media/ConsoleMazeWalker3D.zip": "/CKK/static/media/ConsoleMazeWalker3D.4464925b38d940fcf33b.zip",
     "static/media/ChristianKarlssonKorbaczCLSvenska.pdf": "/CKK/static/media/ChristianKarlssonKorbaczCLSvenska.698225de4eb504298ee4.pdf",
     "static/media/ChristianKarlssonKorbaczCLEnglish.pdf": "/CKK/static/media/ChristianKarlssonKorbaczCLEnglish.fa2acf7d4572c7b15f59.pdf",
+    "static/media/unity-certified-user-artist.png": "/CKK/static/media/unity-certified-user-artist.e2b21db72f8de64293e4.png",
     "static/media/KiberQuest.png": "/CKK/static/media/KiberQuest.83a5503ac4089bb45fa5.png",
     "static/media/react.png": "/CKK/static/media/react.0cf951a69d8e58f83f9d.png",
     "static/media/CSharp.png": "/CKK/static/media/CSharp.d5c9c7b2069298a0b3a6.png",
@@ -29,11 +30,11 @@
     "static/media/sanity.png": "/CKK/static/media/sanity.da9c728da491c30ee700.png",
     "static/media/javascript.png": "/CKK/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/CKK/index.html",
-    "main.adfbb88e.css.map": "/CKK/static/css/main.adfbb88e.css.map",
-    "main.6da40370.js.map": "/CKK/static/js/main.6da40370.js.map"
+    "main.1c03f3f0.css.map": "/CKK/static/css/main.1c03f3f0.css.map",
+    "main.c9e53531.js.map": "/CKK/static/js/main.c9e53531.js.map"
   },
   "entrypoints": [
-    "static/css/main.adfbb88e.css",
-    "static/js/main.6da40370.js"
+    "static/css/main.1c03f3f0.css",
+    "static/js/main.c9e53531.js"
   ]
 }
