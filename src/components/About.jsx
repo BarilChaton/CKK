@@ -3,7 +3,7 @@ import ProfilePic from '../assets/Background.jpg'
 
 const About = () => {
   return (
-    <div name='about' className='w-full h-full bg-[#333333] text-[#b4b4b4]'>
+    <div name='about' className='w-full h-full bg-lightModeMainColor text-lightModeTitle2Color dark:bg-darkModeMainColor dark:text-darkModeTitle2Color'>
       <div className='flex justify-center mb-16'>
         <img className='mb-12 rounded-full border-8 border-[#292929] ' src={ProfilePic} alt="My Image" style={{width: '500px'}}/>
       </div>

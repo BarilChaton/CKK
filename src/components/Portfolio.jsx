@@ -11,7 +11,7 @@ import AssetTrackerDL from '../files/KWABConsoleAssetTracker.zip'
 
 const Work = () => {
   return (
-    <div name='portfolio' className='w-full md:h-screen bg-[#333333] text-[#b4b4b4]'>
+    <div name='portfolio' className='w-full md:h-screen bg-lightModeMainColor text-lightModeTitle2Color dark:bg-darkModeMainColor darktext-darkModeTitle2Color'>
         <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
             <div className='pb-8'>
                 <p className='text-4xl font-bold inline border-b-4 border-[#141414]'>Portfolio</p>

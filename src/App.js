@@ -8,6 +8,7 @@ import Certificates from "./components/Certificates";
 
 
 function App() {
+
   return (
     <div>
       <Navbar />

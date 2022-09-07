@@ -3,7 +3,7 @@ import UDACert from '../assets/unity-certified-user-artist.png'
 
 const Certificates = () => {
   return (
-    <div name='certificates' className='w-full h-screen bg-[#333333] text-[#b4b4b4]'>
+    <div name='certificates' className='w-full h-screen bg-lightModeMainColor text-lightModeTitle2Color dark:bg-darkModeMainColor dark:text-darkModeTitle2Color'>
         {/* Container */}
         <div className='max-w-[1000px] mx-auto p-4 flex flex-col justify-center w-full h-full'>
             <div>

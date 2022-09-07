@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import {FaBars, FaTimes, FaGithub, FaLinkedin, FaTwitter} from 'react-icons/fa'
 import {HiOutlineMail, HiOutlineDocumentText} from 'react-icons/hi'
-import {BsFileCheck, BsFileCheckFill} from 'react-icons/bs'
+import {BsFileCheck, BsFileCheckFill, BsMoonFill, BsFillSunFill, BsSunFill} from 'react-icons/bs'
 import Logo from '../assets/CK.png'
 import {Link} from 'react-scroll'
 import resumeSV from '../files/ChristianKarlssonKorbaczCVSvenska.pdf'
@@ -12,9 +12,10 @@ import coverletterEN from '../files/ChristianKarlssonKorbaczCLEnglish.pdf'
 const Navbar = () => {
     const [nav, setNav] = useState(false)
     const handleClick = () => setNav(!nav)
+    const [darkToggle, setDarkToggle] = useState(false)
 
   return (
-    <div className='fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#292929] text-gray-300'>
+    <div className={`fixed w-full h-[80px] flex justify-between items-center px-4 bg-lightModeSecColor text-lightModeTextColor dark:bg-darkModeSecColor dark:text-darkModeTextColor ${darkToggle ? 'dark' : ''}`}>
         <div className='w-full place-self-start -ml-4'>
             <img src={Logo} alt="Logo Image" style={{width: '175px'}}/>
         </div>
@@ -54,13 +55,17 @@ const Navbar = () => {
           </li>
         </ul>
 
+        <div onClick={() => setDarkToggle(!darkToggle)} className='h-[70px] w-[70px] flex items-center mx-5 right-0'>
+          {!darkToggle ? <BsMoonFill/> : <BsSunFill/> }
+        </div>
+
         {/* Hamburger */}
         <div onClick={handleClick} className='md:hidden z-10'>
           {!nav ? <FaBars /> : <FaTimes />}
         </div>
 
         {/* Mobile Menu */}
-        <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-[#292929] flex flex-col justify-center items-center'}>
+        <ul className={!nav ? 'hidden' : 'absolute top-0 left-0 w-full h-screen bg-lightModeSecColor dark:bg-darkModeSecColor flex flex-col justify-center items-center'}>
           <li className='py-6 text-4xl'>
             <Link onClick={handleClick} to="home" smooth={true} duration={500}>
               Home
