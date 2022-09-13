@@ -43,6 +43,11 @@ const Navbar = () => {
             </Link>
           </li>
           <li className='hover:border-2 py-4 duration-100'>
+            <Link to="certificates" smooth={true} duration={500}>
+              Certificates
+            </Link>
+          </li>
+          <li className='hover:border-2 py-4 duration-100'>
             <Link to="contact" smooth={true} duration={500}>
               Contact
             </Link>
@@ -77,16 +82,21 @@ const Navbar = () => {
             </Link>
           </li>
           <li className='py-6 text-4xl'>
+            <Link onClick={handleClick} to="certificates" smooth={true} duration={500}>
+              Certificates
+            </Link>
+          </li>
+          <li className='py-6 text-4xl'>
             <Link onClick={handleClick} to="contact" smooth={true} duration={500}>
               Contact
             </Link>
           </li>
-          <li className='py-6 text-4xl'>
+          {/* <li className='py-6 text-4xl'>
             <a href={resumeSV} download="ChristianKarlssonKorbaczCVSvenska.pdf" onClick={handleClick}>Download Swedish CV</a>
           </li>
           <li className='py-6 text-4xl'>
               <a href={resumeEN} download="ChristianKarlssonKorbaczCVEnglish.pdf" onClick={handleClick}>Download English CV</a>
-          </li>
+          </li> */}
         </ul>
 
         {/* Social Icons */}
