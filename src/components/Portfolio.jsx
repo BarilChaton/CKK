@@ -1,6 +1,7 @@
 import React from 'react'
 import Munamii from '../assets/Munamii.jpg'
 import KiberQuest from '../assets/KiberQuest.png'
+import KiberSlots from '../assets/kiberslots.png'
 import ShareSmile from '../assets/sharesmile.png'
 import MW3D from '../assets/MW3D.jpg'
 import AssetTracker from '../assets/AssetTracker.jpg'
@@ -53,6 +54,24 @@ const Work = () => {
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-[#292929] font-bold text-lg'>Demo</button>
                             </a>
                             <a href="https://github.com/BarilChaton/KiberQuest">
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-[#292929] font-bold text-lg'>Code</button>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div style={{backgroundImage: `url(${KiberSlots})`}}
+                className='shadow-lg shadow-[#414244] group container rounded-md flex justify-center items-center mx-auto content-div'>
+                    
+                    {/* Hover effects */}
+                    <div className='opacity-0 group-hover:opacity-100'>
+                        <span className='text-2xl font-bold text-white tracking-wider'>
+                            Job position code test, casino game with KiberQuest theme.
+                        </span>
+                        <div className='pt-8 text-center'>
+                            <a href="https://barilchaton.github.io/kiberslots/">
+                                <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-[#292929] font-bold text-lg'>Demo</button>
+                            </a>
+                            <a href="https://github.com/BarilChaton/kiberslots">
                                 <button className='text-center rounded-lg px-4 py-3 m-2 bg-white text-[#292929] font-bold text-lg'>Code</button>
                             </a>
                         </div>
