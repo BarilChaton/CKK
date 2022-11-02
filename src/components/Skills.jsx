@@ -12,6 +12,7 @@ import Azure from '../assets/azure.png';
 import GoogleCloud from '../assets/googlecloud.png';
 import Blender from '../assets/blender.png';
 import Aseprite from '../assets/aseprite.png';
+import PixiJS from '../assets/PixiJS.png'
 
 
 const Skills = () => {
@@ -44,6 +45,10 @@ const Skills = () => {
                 <div className='shadow-md shadow-[#141414] m-4 hover:scale-110 duration-500'>
                     <img className='w-20 mt-4 mx-auto' src={ReactImg} alt="React Icon" />
                     <p className='my-4'>ReactJS</p>
+                </div>
+                <div className='shadow-md shadow-[#141414] m-4 hover:scale-110 duration-500'>
+                    <img className='w-20 mt-4 mx-auto' src={PixiJS} alt="Pixi Icon" />
+                    <p className='my-4'>PixiJS</p>
                 </div>
                 <div className='shadow-md shadow-[#141414] m-4 hover:scale-110 duration-500'>
                     <img className='w-20 mt-4 mx-auto' src={TailwindImg} alt="Tailwind Icon" />
