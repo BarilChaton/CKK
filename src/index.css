@@ -2,29 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
-
-@layer base{
-    body{
-        @apply font-[Barlow];
-    }
-    li{
-        @apply px-4;
-        @apply cursor-pointer;
-    }
-}
-
-.content-div {
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    height: 250px;
-}
-
-.content-div:hover {
-    background-image: linear-gradient(
-        to right,
-        rgba(116, 118, 121, 0.8),
-        hsla(240, 1%, 17%, 0.8)
-    )!important;
+.appContentBox {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
 }
