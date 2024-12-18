@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/CKK/static/css/main.ff24c3eb.css",
-    "main.js": "/CKK/static/js/main.df5edf09.js",
+    "main.js": "/CKK/static/js/main.8730fe6a.js",
     "static/media/sharesmile.png": "/CKK/static/media/sharesmile.ca15cbc5ff7afa84a890.png",
     "static/media/MW3D.jpg": "/CKK/static/media/MW3D.5e13bb48365c62c96f71.jpg",
     "static/media/EndlessSplash.png": "/CKK/static/media/EndlessSplash.0bce3b2569ca41d45d1c.png",
@@ -20,10 +20,13 @@
     "static/media/unity-certified-user-artist.png": "/CKK/static/media/unity-certified-user-artist.e2b21db72f8de64293e4.png",
     "static/media/KiberQuest.png": "/CKK/static/media/KiberQuest.83a5503ac4089bb45fa5.png",
     "static/media/react.png": "/CKK/static/media/react.0cf951a69d8e58f83f9d.png",
+    "static/media/Hercules-Unleashed-Dream-Drop-slot-feat.jpg": "/CKK/static/media/Hercules-Unleashed-Dream-Drop-slot-feat.eb0cc37dd43cbfc788f0.jpg",
     "static/media/PixiJS.png": "/CKK/static/media/PixiJS.e9f6fb47cad0b1f3cebc.png",
+    "static/media/Torii-Tumble-slot-feat.jpg": "/CKK/static/media/Torii-Tumble-slot-feat.0366059615cc4f71169c.jpg",
     "static/media/CSharp.png": "/CKK/static/media/CSharp.d5c9c7b2069298a0b3a6.png",
     "static/media/github.png": "/CKK/static/media/github.3b9e32903aa89111875d.png",
     "static/media/Unity.png": "/CKK/static/media/Unity.def735d87d84ac7e991b.png",
+    "static/media/the-tumbles-slot-feat.jpg": "/CKK/static/media/the-tumbles-slot-feat.a1d88310a19d7e9b12f4.jpg",
     "static/media/html.png": "/CKK/static/media/html.2ba4fabc69a89a8f71e6.png",
     "static/media/azure.png": "/CKK/static/media/azure.3cf49db48e72089f1d01.png",
     "static/media/tailwind.png": "/CKK/static/media/tailwind.e47ac876b8d4d0bba47a.png",
@@ -33,10 +36,10 @@
     "static/media/javascript.png": "/CKK/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/CKK/index.html",
     "main.ff24c3eb.css.map": "/CKK/static/css/main.ff24c3eb.css.map",
-    "main.df5edf09.js.map": "/CKK/static/js/main.df5edf09.js.map"
+    "main.8730fe6a.js.map": "/CKK/static/js/main.8730fe6a.js.map"
   },
   "entrypoints": [
     "static/css/main.ff24c3eb.css",
-    "static/js/main.df5edf09.js"
+    "static/js/main.8730fe6a.js"
   ]
 }
